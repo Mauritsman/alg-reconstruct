@@ -1,0 +1,18 @@
+# Backups
+*.bak
+*.bak[0-9]
+*.bak[0-9][0-9]
+
+# Tijdelijke scripts
+inject_photos.py
+inject_producten.py
+seo_alts.py
+
+# Systeem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+*.code-workspace
