@@ -1877,7 +1877,8 @@
       const result = await response.json();
       if (result.success) {
         const success = document.getElementById('form-success');
-        if (success) { success.style.display = 'flex'; }
+        if (success) { success.style.display = 'block'; }
+        form.style.display = 'none';
         form.reset();
       } else {
         alert('Er ging iets mis. Probeer het via WhatsApp.');
